@@ -11,10 +11,8 @@
 </head>
 <body style="background-color: rgb(180, 249, 233 );">
 <header>
-    <h1 style="text-align: center;">Formulario inicio de secion</h1>
+    <h1 style="text-align: center;">inicio de sesión</h1>
     <br>
-
-
 </header>
 <style>
     #form{
@@ -23,29 +21,22 @@
 </style>
 <div id="form" class="container">
    <form class="" action="" method="">
-        <label for="name">Nombres:</label><br>
-        <br>
+        <label for="name">Nombres:</label><br> <br>
         <input type="text" id="name" name="name" placeholder="ingrese su nombre" autofocus
                required pattern="[A-Za-z]{2,40}"><br><bR>
-        <label for="lastname">Apellido:</label><br>
-        <br>
+        <label for="lastname">Apellido:</label><br><br>
         <input type="text" id="lastname" name="lastname" placeholder="ingrese su apellido" autofocus
                required pattern="[A-Za-z]{2,40}"><br><br>
-        <label for="email">Correo:</label><br>
-        <br>
+        <label for="email">Correo:</label><br><br>
         <input type="email" id="email" name="email" placeholder="ingrese su correo" autofocus
                required pattern="{60}"><br><br>
-        <label for="password">Contraseña:</label><br>
-        <br>
+        <label for="password">Contraseña:</label><br><br>
         <input type="password" id="password" name="password" placeholder="ingrese su contraseña" autofocus
-               required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}$"><br>
-        <br>
-        <button class="btn btn-primary" type="submit">Enviar</button>
-        <br><br>
+               required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}$"><br><br>
+        <button class="btn btn-primary" type="submit">Enviar</button><br><br>
         <a href="hello-servlet">Hello Servlet</a>
     </form>
 </div>
-<br>
 <br>
 <br>
 <style>
@@ -60,7 +51,7 @@ background: aqua;
 
   <u>
       <bR>
-        <h6>Realizado por: nn</h6>
+        <h6>Hecho por: Maria Fernanda Lozano Cañon</h6>
         <h6>Ficha: 2687365</h6>
     </u>
 </footer>
